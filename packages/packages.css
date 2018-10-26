@@ -1,0 +1,293 @@
+@font-face{
+    font-family: "AnonymousPro";
+    src: url('anonymousPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: "AnonymousPro";
+    src: url('anonymousPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+main{
+    padding-top: 1.5rem;
+}
+
+.background{
+    background: url('../images//plans-background.jpg');
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.package{
+    width: 80%;
+    margin: 1rem 0px;
+    border: 2px solid #0e4f1f;
+    border-left: none;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.package__badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    color: white;
+    font-size: 0.7rem;
+    background: #ff1b68;
+    padding: 0.5rem;
+    width: 12rem;
+    text-align: center;
+    transform-origin: center;
+    transform: rotate(45deg) translateX(3.5rem) translateY(-1rem);
+}
+
+.package a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.package:hover,
+.package:active{
+    border-color: #ff5454;
+    /*border-color: #ff5454 !important;
+    to fix the floating package left border*/
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.5);
+}
+
+.package__title{
+    color: black;
+}
+
+.package__subtitle{
+    color: #979797;
+}
+
+.package__info{
+    background: white;
+    padding: 1rem;
+    border: 1px solid #0e4f1f;
+    color: #0e4f1f;
+    font-size: 1.2rem;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#plus{
+    background: rgba(213, 255, 220, 0.94);
+}
+
+#plus:hover,
+#plus:active{
+    border-color: #ff5454;
+    box-shadow: -3px 3px 7px 0px rgba(0,0,0,0.5);
+}
+
+#free{
+    background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 2px solid #0e4f1f;
+    text-align: right;
+}
+
+#free:hover,
+#free:active{
+    border-color: #ff5454;
+    box-shadow: -3px 3px 7px 0px rgba(0,0,0,0.5);
+}
+
+#premium{
+    background: rgba(14, 79, 31, 0.95);
+    border: 2px solid #757edf;
+    border-left: none;
+}
+
+#premium:hover,
+#premium:active {
+    border-color: #ff5454;
+}
+
+#premium .package__title{
+    color: white;
+}
+
+#premium .package__subtitle{
+    color: #bbb;
+}
+
+@media (min-width: 40rem){
+    main{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1200px){
+    #plus{
+        border-left: 2px solid #0e4f1f;
+    }
+
+    #free{
+        border-right: 2px solid #0e4f1f;
+    }
+    
+    #premium{
+        border-left: 2px solid #757edf;
+    }
+}
+
+
+@font-face{
+    font-family: "AnonymousPro";
+    src: url('anonymousPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: "AnonymousPro";
+    src: url('anonymousPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+main{
+    padding-top: 1.5rem;
+}
+
+.background{
+    background: url("../images/plans-background.jpg");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.package{
+    width: 80%;
+    margin: 1rem 0px;
+    border: 2px solid #0e4f1f;
+    border-left: none;
+    position: relative;
+}
+
+
+
+.package__badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.8rem;
+    color: white;
+    font-size: 0.7rem;
+    background: #ff1b68;
+    padding: 0.5rem;
+}
+
+.package a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.package:hover,
+.package:active{
+    border-color: #ff5454;
+    /*border-color: #ff5454 !important;
+    to fix the floating package left border*/
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.5);
+}
+
+.package__title{
+    color: black;
+}
+
+.package__subtitle{
+    color: #979797;
+}
+
+.package__info{
+    background: white;
+    padding: 1rem;
+    border: 1px solid #0e4f1f;
+    color: #0e4f1f;
+    font-size: 1.2rem;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#plus{
+    background: rgba(213, 255, 220, 0.94);
+}
+
+#plus:hover,
+#plus:active{
+    border-color: #ff5454;
+    box-shadow: -3px 3px 7px 0px rgba(0,0,0,0.5);
+}
+
+#free{
+    background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 2px solid #0e4f1f;
+    text-align: right;
+}
+
+#free:hover,
+#free:active{
+    border-color: #ff5454;
+    box-shadow: -3px 3px 7px 0px rgba(0,0,0,0.5);
+}
+
+#premium{
+    background: rgba(14, 79, 31, 0.95);
+    border: 2px solid #757edf;
+    border-left: none;
+}
+
+#premium:hover,
+#premium:active {
+    border-color: #ff5454;
+}
+
+#premium .package__title{
+    color: white;
+}
+
+#premium .package__subtitle{
+    color: #bbb;
+}
+
+@media (min-width: 40rem){
+    main{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1200px){
+    #plus{
+        border-left: 2px solid #0e4f1f;
+    }
+
+    #free{
+        border-right: 2px solid #0e4f1f;
+    }
+    
+    #premium{
+        border-left: 2px solid #757edf;
+    }
+}
